@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Carson Blevins - Resume</title>
+	</head>
+
+	<body>
+		<h1><center>Carson Blevins</center></h1>
+		<h1><center>P. Sherman 42, Wallaby Way, Sydney</center></h1>
+		
+		<h2><font color="red">Objective: Work on the next great video game.</font></h2>
+		
+		<p><h2><font color="blue">Education:
+		<ul><li>Bethlehem High School</li>
+		<li>Bellarmine University</li></ul></font></h2></p>
+
+		<p><h2><font color="green">Work Experience:
+		<ol type="1"><li>Publicist</li>
+		<li>Band Manager</li>
+		<li>Software Engineer</li></ol></font></h2></p>
+
+
+			
+		
+
+	</body>
+	
+
+
+
+
+</html>
