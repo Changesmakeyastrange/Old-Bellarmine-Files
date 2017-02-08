@@ -1,0 +1,80 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 TESTING the constructor\
+Trying min < max\
+     Passes\
+Trying min = max\
+     Passes\
+Trying min > max\
+     Passes\
+\
+\
+TESTING the toString method\
+Displaying the counter using toString:\
+The counter is at 1. \
+The minimum value is 1. \
+The maximum value is 9.\
+Did the counter roll over? false\
+The counter should have the value 1\
+    the minimum should be 1, the maximum should be 9\
+    it should not have rolled over\
+\
+\
+TESTING the equals method\
+trying two counters that should be in the same state\
+     passes\
+trying two counters that should be in a different state\
+**** fails\
+trying two counters that should be in a different state\
+**** fails\
+\
+\
+TESTING the increase method\
+Increasing counter 1 once\
+**** fails - bad value\
+     passes\
+Increasing counter 1 again\
+**** fails - bad value\
+**** fails - should roll over\
+Increasing counter 1 a third time\
+**** fails - bad value\
+     passes\
+Increasing counter 2 until it rolls over\
+     passes\
+**** fails - wrong number of increases; count was 1\
+Increasing counter 3 until it rolls over\
+     passes\
+**** fails - wrong number of increases; count was 30\
+\
+\
+TESTING the decrase method\
+Decreasing the counter once\
+**** fails - bad value\
+**** fails - should roll over\
+Decreasing the counter again\
+**** fails - bad value\
+     passes\
+Decreasing the counter a third time\
+**** fails - bad value\
+**** fails - should roll over\
+Decrease counter 2 twice, then decrease counter 2 until it rolls over again\
+     passes\
+**** fails - wrong number of decreases; count was 1\
+Decrease counter 3 twice, then decrease counter 3 until it rolls over again\
+     passes\
+**** fails - wrong number of decreases; count was 8\
+\
+\
+TESTING combinations of the increase and decrease methods\
+Increasing counter 2 once\
+     passes\
+Decreasing counter 2 once\
+     passes\
+Decreasing then increasing counter 3\
+**** fails - state should differ in rollover\
+BUILD SUCCESSFUL (total time: 1 second)\
+}
